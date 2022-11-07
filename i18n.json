@@ -1,0 +1,12 @@
+{
+  "locales": ["fr"],
+  "defaultLocale": "fr",
+  "pages": {
+    "*": ["app", "search", "nav", "footer", "toc"],
+    "/": ["book", "recipes", "recipe"],
+    "/livre": ["book", "recipes", "recipe"],
+    "/a-propos": ["about"],
+    "/recettes": ["recipes"],
+    "/recettes/[id]": ["recipe"]
+  }
+}

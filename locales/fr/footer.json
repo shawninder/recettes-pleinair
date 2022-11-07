@@ -1,0 +1,15 @@
+{
+  "major-section-0": "Projet",
+  "major-section-1": "Support",
+  "minor-section-0": "Légal",
+  "about-url": "/a-propos",
+  "about-label": "À propos de {{appName}}",
+  "faq-url": "/faq",
+  "faq-label": "FAQ",
+  "issue-url": "mailto:shawninder+recettespleinair@gmail.com",
+  "issue-label": "Déclarer un problème",
+  "suggestion-url": "mailto:shawninder+recettespleinair@gmail.com",
+  "suggestion-label": "Proposer une fonctionalité",
+  "question-url": "mailto:shawninder+recettespleinair@gmail.com",
+  "question-label": "Poser une question"
+}

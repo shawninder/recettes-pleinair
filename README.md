@@ -1,3 +1,3 @@
-# Recettes / Plein Air
+# Recettes / Plein-Air
 
 Recettes pour l'Expédition Gourmande

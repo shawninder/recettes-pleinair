@@ -1,4 +1,6 @@
+import Link from 'next/Link'
+
 export default function RecipeListItem ({ recipe }) {
   const { _id, name } = recipe
-  return <a href={`/recipe/${_id}`}>{name}</a>
+  return <Link href={`/recettes/${_id}`}>{name}</Link>
 }

@@ -1,0 +1,20 @@
+.back-cover {
+  --padding: 1em 0.5em;
+}
+
+@media (min-width: 600px) {
+  .back-cover {
+    --padding: 2em 1em;
+  }
+}
+
+.back-cover {
+  padding: var(--padding);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.back-cover > div {
+  max-width: 600px;
+}

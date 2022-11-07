@@ -1,10 +1,16 @@
+const withNextTranslate = require('next-translate')
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: []
+  }
+})
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales: ['fr'],
-    defaultLocale: 'fr'
-  }
+  pageExtensions: ['js', 'jsx', 'md', 'mdx']
 }
 
-module.exports = nextConfig
+module.exports = withNextTranslate(withMDX(nextConfig))

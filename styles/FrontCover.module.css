@@ -1,0 +1,29 @@
+.cover {
+  --front-cover-height: calc(100vh - 48px);
+}
+
+.cover {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  height: var(--front-cover-height);
+  padding-top: 48px;
+}
+.title {
+  font-size: 4em;
+}
+.tagline {
+  font-style: italic;
+  font-size: 2em;
+}
+.cover-photo {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}

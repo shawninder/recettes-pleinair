@@ -1,0 +1,14 @@
+{
+  "home-url": "/",
+  "home-label": "Accueil",
+  "book-url": "/livre",
+  "book-label": "Obtenir le Livre!",
+  "recipes-url": "/recettes",
+  "recipes-label": "Recettes",
+  "blog-url": "/blogue",
+  "blog-label": "Blogue",
+  "contribute-url": "/contribuer",
+  "contribute-label": "Contribuer",
+  "pricing-url": "/tarifs",
+  "pricing-label": "Tarifs"
+}

@@ -1,0 +1,4 @@
+.cover {
+  background: url("/placeholder.png") top center no-repeat black;
+  background-size: cover;
+}

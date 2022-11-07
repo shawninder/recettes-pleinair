@@ -1,0 +1,12 @@
+{
+  "title": "{{ appName }}",
+  "by": "par {{ author }}",
+  "desc": "Le Goût de l'Aventure",
+  "Book Contents": "Contenus du livre",
+  "Breakfasts": "Déjeuners",
+  "Lunches": "Dîners",
+  "Suppers": "Soupers",
+  "Recipe Contents": "Contenus des recettes",
+  "Number of Recipes": "Nombre total de recettes",
+  "Nutritive Information": "Informations Nutritionnelles"
+}

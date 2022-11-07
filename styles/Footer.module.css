@@ -1,0 +1,10 @@
+.footer {
+  font-size: smaller;
+}
+
+.footer > nav > ul {
+  list-style: none;
+  padding: 0.3em 0.6em;
+  max-width: 20rem;
+  float: left;
+}

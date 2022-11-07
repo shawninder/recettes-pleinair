@@ -1,0 +1,69 @@
+.header {
+  background: white;
+  box-shadow: 1px 2px 5px black;
+}
+
+.header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.header > nav > ul  {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toggle, .cta button {
+  cursor: pointer;
+}
+
+.cta {
+  flex-shrink: 0;
+}
+
+.panel {
+  position: absolute;
+  left: 0;
+  background: white;
+  box-shadow: 1px 2px 5px black;
+  width: 100%;
+}
+
+.panel-open {
+  opacity: 1;
+  top: 1.8rem;
+}
+
+.panel-closed {
+  opacity: 0;
+  top: -100%;
+}
+
+.panel > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home a, .cta button, .toggle button, .panel .major > li, .panel .minor > li {
+  display: block;
+  padding: 0.3em 0.6em;
+}
+
+@media (min-width: 600px) {
+  .toggle {
+    display: none;
+  }
+  .panel {
+    position: relative;
+    opacity: 1;
+    top: 0;
+    display: flex;
+    box-shadow: 0 0 0 black;
+  }
+  .panel > ul {
+    display: flex;
+  }
+}
