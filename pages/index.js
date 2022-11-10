@@ -5,10 +5,9 @@ import { getAllRecipes } from '../db/recipes'
 
 import Page from '../components/Page'
 import Cover from '../components/Cover'
+import Search from '../components/Search'
 import FrontCover from '../components/FrontCover'
 import BackCover from '../components/BackCover'
-import Spine from '../components/Spine'
-import Search from '../components/Search'
 
 function useRecipes (recipes) {
   const [filteredRecipes, setFilteredRecipes] = useState(recipes)
@@ -47,7 +46,6 @@ export default function Home ({ recipes }) {
       <Cover>
         <Search filteredRecipes={filteredRecipes} onSearch={onSearch} query={decodeURIComponent(qStr)} />
         <FrontCover />
-        <Spine />
         <BackCover />
       </Cover>
     </Page>

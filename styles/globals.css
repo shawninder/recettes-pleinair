@@ -1,3 +1,16 @@
+:root {
+  --text-size: 16px;
+  --heading-size: 21px;
+  --subheading-size: 18px;
+}
+@media (min-width: 600px) {
+  :root {
+    --text-size: 21px;
+    --heading-size: 41px;
+    --subheading-size: 32px;
+  }
+}
+
 html,
 body {
   padding: 0;

@@ -13,3 +13,11 @@
   width: 100%;
   padding: var(--padding);
 }
+
+.recipeList {
+  list-style: none;
+  padding: 0;
+}
+.recipeListItem {
+  height: 48px;
+}

@@ -1,20 +1,38 @@
 .back-cover {
   --padding: 1em 0.5em;
 }
+.back-cover > div {
+  width: 100%;
+}
 
 @media (min-width: 600px) {
   .back-cover {
     --padding: 2em 1em;
   }
+  .back-cover > div {
+    width: 600px;
+  }
 }
 
 .back-cover {
+  position: relative;
   padding: var(--padding);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-size: var(--text-size);
+  backdrop-filter: blur(10px);
+  transform: blur(10px);
 }
 
 .back-cover > div {
   max-width: 600px;
+}
+
+.back-cover h2 {
+  font-size: var(--subheading-size);
+}
+
+.back-cover p {
+  text-indent: 20px;
 }

@@ -11,10 +11,10 @@ export default function TOC ({ recipes }) {
     return matches.length > 0 ? (
       <div>
         <h3>{label}</h3>
-        <ul>
+        <ul className={styles.recipeList}>
           {matches.map((recipe) => {
             return (
-              <li key={recipe._id}>
+              <li className={styles.recipeListItem} key={recipe._id}>
                 <RecipeListItem recipe={recipe} />
               </li>
             )

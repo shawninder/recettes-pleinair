@@ -1,6 +1,8 @@
 {
+  "alt": "Photo du plat",
   "Ingredients": "Ingrédients",
-  "portions": "portions",
+  "portions_one": "pour <0>{{ count }}</0> portion",
+  "portions_other": "pour <0>{{ count }}</0> portions",
   "advance": "À l'Avance",
   "transport": "Préparation au Transport",
   "prep": "Sur Place",

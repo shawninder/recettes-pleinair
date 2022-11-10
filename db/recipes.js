@@ -28,6 +28,7 @@ export async function query (filter = {}) {
 export const exampleRecipes = [{
   _id: 'asdfsgadfsdgfn',
   name: 'Chilli Déshy',
+  img: 'https://www.hairybikers.com/uploads/images/_opengraphTwitterImage/ChilliConCarne.jpg',
   portions: 2,
   ingredients: [
     ['onion', '1'],
@@ -50,21 +51,29 @@ export const exampleRecipes = [{
       'Porter à ébullition puis baisser le feu afin de laisser mijoter pendant 3 à 4 heures. Rectifier l’assaisonnement au besoin'
     ],
     transport: [
-      "Déshydrater, casser et emballer"
+      "Déshydrater et emballer"
+    ],
+    prep: [
+      "Faire réhydrater dans l'eau chaude",
+      "Réhydrater la coriandre dans l'eau froide séparément"
+    ],
+    serve: [
+      "Servir chaud et garni d'une splouch de lait de coco et de coriandre hachée réhydratée pour décorer"
     ]
   },
   tags: ['supper']
 }, {
   _id: 'dafsgdsadfgdgf',
   name: 'Soupe de lentilles',
+  img: 'https://wholefoodsoulfoodkitchen.com/wp-content/uploads/2021/03/red-lentil-dahl-with-coconut-milk.jpg',
   portions: 2,
   ingredients: [
     ['onion', '1'],
-    ['ail', '1', 'gousse'],
+    ['ail', '3', 'gousses'],
     ['gingembre', '30', 'ml'],
     ['lentilles corail crue', '200', 'g'],
     ['bouillon de poulet', '250', 'ml'],
-    ['crème sûre', '1', 'sploutch'],
+    ['lait de coco', '250', 'ml'],
     ['coriandre séchée au goût']
   ],
   instructions: {
@@ -73,13 +82,14 @@ export const exampleRecipes = [{
       "Ajouter l'ail et cuire encore 1 minute"
     ],
     transport: [
-      "Ajouter les lentilles et le bouillon et mijoter 20 minutes"
+      "Déshydrater et emballer"
     ],
     prep: [
-      "Réhydrater la coriandre 15 minutes avant de servir"
+      "Faire réhydrater les arômates et mijoter les lentilles dans le bouillon pendant 20 minutes",
+      "Réhydrater la coriandre dans l'eau froide séparément"
     ],
     serve: [
-      "Servir chaud et garni d'une splouch de crême sûre et de coriandre hachée réhydratée pour décorer"
+      "Servir chaud et garni d'une splouch de lait de coco et de coriandre hachée réhydratée pour décorer"
     ]
   },
   tags: ['supper']

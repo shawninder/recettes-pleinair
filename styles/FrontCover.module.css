@@ -1,22 +1,27 @@
 .cover {
-  --front-cover-height: calc(100vh - 48px);
-}
-
-.cover {
+  --text-color: white;
+  --text-shadow: 0 0 1px black;
+  background: url("/cover.jpg") top center no-repeat ghostwhite;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  text-shadow: var(--text-shadow);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
-  height: var(--front-cover-height);
+  height: 100vh;
   padding-top: 48px;
 }
 .title {
-  font-size: 4em;
+  font-size: var(--heading-size);
 }
 .tagline {
+  color: var(--text-color);
+  text-shadow: var(--text-shadow);
   font-style: italic;
-  font-size: 2em;
+  font-size: var(--subheading-size);
 }
 .cover-photo {
   z-index: -1;

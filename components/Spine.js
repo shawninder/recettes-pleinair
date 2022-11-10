@@ -6,7 +6,7 @@ export default function Spine () {
   const { t } = useTranslation('book')
   return (
     <div className={styles.spine}>
-      <p>{t('by', { author: 'Shawn Inder' })}</p>
+      <p></p>
     </div>
   )
 }
